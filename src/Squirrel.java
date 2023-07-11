@@ -7,6 +7,7 @@ public class Squirrel {
 
     public int getNuts(int index) {
         return nuts[index];
+
     }
 
     ///*
@@ -41,4 +42,5 @@ public class Squirrel {
 System.out.println(s.maxNuts());
     Squirrel s2 = new Squirrel(new int[] {1, -2, 3, 1, -1, -4, 2, 3});
 System.out.println(s2.maxNuts());
+        System.out.println();
 }}
